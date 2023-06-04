@@ -1,0 +1,88 @@
+/*style login*/
+body,html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.login{
+    background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.card{
+    border-radius: 8px;
+    border: 1px solid #00b89499;
+    margin: 0 10%;
+    width: 80%;
+}
+.login-title{
+    display: flex;
+    color: #00b89499;
+}
+.login-title a{
+    width: 50%;
+}
+.clicked{
+    border-bottom:1px solid #00b894 ;
+}
+.login-title button{
+    width: 100%;
+    color: #00b893;
+    background-color: transparent;
+    border: 0;
+    padding: 15px;
+    font-weight: bold;
+}
+.card form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-input{
+    display: inline-block;
+    position: relative;
+    margin: 25px 0;
+    color: rgba(105, 105, 101, 0.76);
+    
+}
+.form-input input{
+    background-color: #02011c;
+    border: 1px solid #00b89499;
+    border-radius: 25px;
+    height: 2em;
+    outline:none;
+    color:rgba(255, 255, 255, 0.838) ;
+    padding-left: 15px;
+}
+
+.form-input .focused{
+    transform: translateY(-100%);
+    color: #00b894;
+}
+.form-input label{
+    font-size: 13px;
+    position: absolute;
+    margin-left: 15px;
+    transform: translateY(50%);
+    transition: .25s;
+}
+.submit{
+    color: #00b894 !important;
+    padding: 5px !important;
+    width: 100px;
+    transform: translateY(0) !important;
+}
+@media screen and (min-width:420px) {
+       .card{
+        width: 336.71px;
+       }
+}
+/*style login*/
